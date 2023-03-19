@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+*,
+*:before *:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-color: #306bb3;
+  --text-white: #fff;
+  --text-black: #1a202c;
+}
