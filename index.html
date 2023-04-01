@@ -18,91 +18,117 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Pokemon</title>
   </head>
   <body>
-    <header>
-      <img src="./assets/logo.svg" alt="Logo" />
-      <div class="container">
-        <nav>
-          <ul class="container-nav-ul">
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="buyCards.html" target="_blank">BuyCards</a></li>
-            <li><a href="ourBlog.html" target="_blank">OurBlog</a></li>
-          </ul>
-        </nav>
-        <button>Dark Mode</button>
-      </div>
-    </header>
-    <main>
-      <section>
-        <p>Discover the treasures awaiting for you...</p>
-        <h1>POKEMON ACTION FIGURES, TOYS AND CARDS</h1>
-        <p>
-          Pokémon is a media franchise owned by video game giant Nintendo and
-          created by Satoshi Tajiri around 1995. Originally released as a pair
-          of interlinkable Game Boy role-playing video games, Pokémon has since
-          become the 2nd most successful and lucrative video game-based media
-          franchise in the world, behind only Nintendo's Mario series.
-        </p>
-        <div class="container-links">
-          <a href="ourBlog.html">Go to our blog</a>
-          <a href="buyCards.html">Buy Cards</a>
+    <header class="header">
+      <section class="container">
+        <div class="logo"><img src="./assets/logo.svg" alt="Logo" /></div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <div class="menu-container">
+          <nav class="menu">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="buyCards.html" target="_blank">BuyCards</a>
+            <a href="ourBlog.html" target="_blank">OurBlog</a>
+          </nav>
+          <button class="btn-dark-mode">Dark Mode</button>
         </div>
       </section>
-      <aside>
-        <img
-          class="img-ash"
-          src="assets/ash-leaves-anime 1.png"
-          alt="Ash leaves anime"
-        />
-      </aside>
+    </header>
+    <main>
+      <section class="container section text-center">
+        <article>
+          <p><b>Discover the treasures awaiting for you...</b></p>
+          <h1>POKEMON ACTION FIGURES, TOYS AND CARDS</h1>
+          <p>
+            Pokémon is a media franchise owned by video game giant Nintendo and
+            created by Satoshi Tajiri around 1995. Originally released as a pair
+            of interlinkable Game Boy role-playing video games, Pokémon has
+            since become the 2nd most successful and lucrative video game-based
+            media franchise in the world, behind only Nintendo's Mario series.
+          </p>
+          <div class="container-links">
+            <a href="ourBlog.html">Go to our blog</a>
+            <a href="buyCards.html">Buy Cards</a>
+          </div>
+        </article>
+        <article>
+          <img
+            class="img-ash"
+            src="assets/ash-leaves-anime 1.png"
+            alt="Ash leaves anime"
+          />
+        </article>
+      </section>
     </main>
-    <footer>
-      <div>
-        <img src="assets/logo.svg" alt="Logo" />
-        <p>
-          Our vision is to provide convenience and help increase your sales
-          business
-        </p>
-        <div>
-          <ul class="icons">
-            <li><i class="fa-brands fa-square-facebook"></i></li>
-            <li><i class="fa-brands fa-square-twitter"></i></li>
-            <li><i class="fa-brands fa-square-instagram"></i></li>
-          </ul>
+    <footer class="footer">
+      <section class="container">
+        <div class="container-social-media">
+          <img src="assets/logo.svg" alt="Logo" />
+          <p>
+            Our vision is to provide convenience and help increase your sales
+            business
+          </p>
+          <div>
+            <ul class="icons">
+              <li><i class="fa-brands fa-square-facebook"></i></li>
+              <li><i class="fa-brands fa-square-twitter"></i></li>
+              <li><i class="fa-brands fa-square-instagram"></i></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="container-ab-com-soc">
-        <div>
-          <ul>
-            <li class="title">About</li>
-            <li>How it works</li>
-            <li>Featured</li>
-            <li>Partnership</li>
-            <li>Bussiness Relation</li>
-          </ul>
+        <div class="links">
+          <div>
+            <ul>
+              <li class="title">About</li>
+              <li>How it works</li>
+              <li>Featured</li>
+              <li>Partnership</li>
+              <li>Bussiness Relation</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li class="title">Community</li>
+              <li>Events</li>
+              <li>Blog</li>
+              <li>Podcast</li>
+              <li>Invite a friend</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li class="title">Socials</li>
+              <li>Discord</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <ul>
-            <li class="title">Community</li>
-            <li>Events</li>
-            <li>Blog</li>
-            <li>Podcast</li>
-            <li>Invite a friend</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li class="title">Socials</li>
-            <li>Discord</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-          </ul>
-        </div>
-      </div>
+      </section>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
